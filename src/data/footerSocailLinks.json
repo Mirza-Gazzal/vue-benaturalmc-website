@@ -1,0 +1,23 @@
+[
+  {
+
+    "class": "fa fa-facebook",
+    "link": ""
+  },
+  {
+    "class": "fa fa-twitter",
+    "link": "#"
+  },
+  {
+    "class": "fa fa-google-plus",
+    "link": "#"
+  },
+  {
+    "class": "fa fa-instagram",
+    "link": "#"
+  },
+  {
+    "class": "fa fa-whatsapp",
+    "link": "#"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Service One Title",
+    "subTitle": "Service One Text",
+    "text": "text here",
+    "link": "https://google.com",
+    "linkText": "Check Google",
+    "imageUrl": "/images/main-slider/image-3.jpg"
+  },
+  {
+    "title": "Service One Title",
+    "subTitle": "Service One Text",
+    "text": "text here",
+    "link": "https://google.com",
+    "linkText": "Check Google",
+    "imageUrl": "/images/main-slider/image-4.jpg"
+  }
+]
