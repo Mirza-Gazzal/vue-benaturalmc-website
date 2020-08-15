@@ -19,6 +19,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 
 
             <div class="bottom-box">
@@ -35,7 +36,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 </template>
 <script>

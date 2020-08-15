@@ -8,10 +8,11 @@
         </div>
         <div class="row">
             <!-- Process Block -->
-            <div class="process-block col-lg-3 col-md-6 col-sm-12" v-for="(service, key) in services">
+            <div class="process-block col-lg-6 col-md-6 col-sm-12" v-for="(service, key) in services">
                 <div class="inner-box">
                     <span class="count">{{String(key).padStart(2, 0)}}</span>
-                    <h4><a href="service-detail.html">{{service.title}}</a></h4>
+                    <img :src="service.image"/>
+                    <h4 class="mt-3 mb-2"><a href="service-detail.html">{{service.title}}</a></h4>
                     <div class="text" v-if="service.hasOwnProperty('text')">{{service.text}}</div>
                     <div class="link-box" v-if="service.hasOwnProperty('link')">
                         <a :href="service.link">Read More</a>
