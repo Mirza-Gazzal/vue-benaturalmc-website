@@ -5,14 +5,22 @@
     "text": "text here",
     "link": "https://google.com",
     "linkText": "Check Google",
-    "imageUrl": "/images/main-slider/image-3.jpg"
+    "imageUrl": "/images/main-slider/image-1.jpg"
   },
   {
-    "title": "Service One Title",
-    "subTitle": "Service One Text",
+    "title": "Service Two Title",
+    "subTitle": "Service Two Text",
     "text": "text here",
     "link": "https://google.com",
     "linkText": "Check Google",
-    "imageUrl": "/images/main-slider/image-4.jpg"
+    "imageUrl": "/images/main-slider/image-2.jpg"
+  },
+  {
+    "title": "Service Three Title",
+    "subTitle": "Service Three Text",
+    "text": "text here",
+    "link": "https://google.com",
+    "linkText": "Check Google",
+    "imageUrl": "/images/main-slider/image-3.jpg"
   }
 ]
