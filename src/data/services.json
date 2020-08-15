@@ -1,14 +1,87 @@
 [
   {
-    "title": "Service One Title",
-    "text": "Service One Text"
+    "image": "/images/section/services/AcneScarsThumb.jpg",
+    "title": "Acne Scars",
+    "text": "Get back to smooth, beautiful skin and make acne scars a thing of the past."
   },
   {
-    "title": "Service Two Title",
-    "text": "Service Two Text"
+    "image": "/images/section/services/Body_ContouringThumb.jpg",
+    "title": "Body Contouring - Non-Invasive ",
+    "text": "Target problem areas, shape trouble spots, and permanently eliminate fat cells."
   },
   {
-    "title": "Service Three Title",
-    "text": "Service Three Text"
-  }
+    "image": "/images/section/services/Hair_Removal_Patient_Thumb.jpg",
+    "title": "Hair Removal ",
+    "text": "Permanently reduce unwanted hair quickly and effectively."
+  },
+  {
+    "image": "/images/section/services/Non-Invasive-CelluliteThumb.jpg",
+    "title": "Cellulite Treatment - Non-Invasive",
+    "text": "Reduce the appearance of cellulite in just a few easy treatments."
+  },
+  {
+    "image": "/images/section/services/Rosacea_Patient_Thumb.jpg",
+    "title": "Rosacea ",
+    "text": "Reduce facial redness caused by rosacea in a couple easy treatments."
+  },
+  {
+    "image": "/images/section/services/Skin_RevitalizationThumb.jpg",
+    "title": "Skin Revitalization",
+    "text": "Revitalize your skin with RF microneedling"
+  },
+  {
+    "image": "/images/section/services/Stretchmark_thumb.jpg",
+    "title": "Skin Revitalization ",
+    "text": "Revitalize your skin with RF microneedling"
+  },
+  {
+    "image": "/images/section/services/Sun_Damage_Patient_Thumb.jpg",
+    "title": "Stretch Mark Reduction ",
+    "text": "Reduce the appearance of stretch marks, quickly and easily."
+  },
+  {
+    "image": "/images/section/services/Surgical_Scars_Patient_Thumb.jpg",
+    "title": "Sun Damage and Brown Spots ",
+    "text": "Get rid of age spots and sun damage quickly and effectively."
+  },
+  {
+    "image": "/images/section/services/Tattoo_RemovalThumb.jpg",
+    "title": "Tattoo Removal ",
+    "text": "Permanently remove unwanted tattoos quickly and effectively."
+  },
+  {
+    "image": "/images/section/services/Vein_Treatments_Patient_Thumb.jpg",
+    "title": "Vein Treatments ",
+    "text": "Diminish the appearance of face and leg veins without surgery or lengthy recovery times."
+  },
+  {
+    "image": "/images/section/services/Womens_Health_Patient_Thumb.jpg",
+    "title": "Women's Health  ",
+    "text": "For millions of women, changes in their health may interfere with their personal lives. Now there are options."
+  },
+  {
+    "image": "/images/section/services/LidLift_Patient_Thumb.jpg",
+    "title": "Cosmetic Eye Treatment ",
+    "text": "Address sagging and drooping skin, puffiness and visible aging around the eyes with the TempSure LidLift™ procedure."
+  },
+  {
+    "image": "/images/section/services/Cellulite_Treatments_Patient_Thumb.jpg",
+    "title": "Cellulite Treatment - Minimally Invasive ",
+    "text": "Stop struggling with cellulite and start loving your body again with our revolutionary laser cellulite treatments."
+  },
+  {
+    "image": "/images/section/services/BodyContouringMinimallyInvasiveThumb.jpg",
+    "title": "Body Contouring - Minimally Invasive ",
+    "text": "Achieve a natural-looking slimmer appearance with little to no downtime with our minimally invasive laser body contouring treatments."
+  },
+  {
+    "image": "/images/section/services/Sweat_Gland_Patient_Thumb.jpg",
+    "title": "Excessive Sweating ",
+    "text": "Say goodbye to embarrassing underarm stains and excessive sweating with our laser treatment technology."
+  },
+  {
+  "image": "/images/section/services/Fine_Lines_Patient_Thumb.jpg",
+  "title": "Fine Lines and Wrinkles ",
+  "text": "Diminish the natural signs of aging without injectables or downtime."
+}
 ]

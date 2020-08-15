@@ -10,9 +10,9 @@
             <!-- Process Block -->
             <div class="process-block col-lg-6 col-md-6 col-sm-12" v-for="(service, key) in services">
                 <div class="inner-box">
-                    <span class="count">{{String(key).padStart(2, 0)}}</span>
-                    <img :src="service.image"/>
-                    <h4 class="mt-3 mb-2"><a href="service-detail.html">{{service.title}}</a></h4>
+                    <span class="count">{{String(key+1).padStart(2, 0)}}</span>
+                    <img :src="service.image" style="border-radius: 12px;height: 256px !important;width: 256px" />
+                    <h4 class="mt-3 mb-2"><a style="color: #ff8a00">{{service.title}}</a></h4>
                     <div class="text" v-if="service.hasOwnProperty('text')">{{service.text}}</div>
                     <div class="link-box" v-if="service.hasOwnProperty('link')">
                         <a :href="service.link">Read More</a>
@@ -30,11 +30,11 @@
         props :{
             title: {
                 required: false,
-                default: 'HOW WE WORK'
+                default: 'Our Services'
             },
             subTitle: {
               required: false,
-              default: 'Services'
+              default: 'Treatments'
             },
             services: {
                required: true,

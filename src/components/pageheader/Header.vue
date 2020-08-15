@@ -7,7 +7,7 @@
                     <div class="logo-box">
                         <div class="logo">
                             <a href="#">
-                                <img src="/logo/Blue128px.png" alt="" title="">
+                                <img src="/logo/Blue92px.png" alt="" title="">
                             </a>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                 <div class="auto-container clearfix">
                     <!--Logo-->
                     <div class="logo pull-left">
-                        <a href="#" title=""><img src="/logo/Blue92px.png" alt="" title=""></a>
+                        <a href="#" title=""><img src="/logo/Blue64px.png" alt="" title=""></a>
                     </div>
                     <!--Right Col-->
                     <div class="pull-right">
