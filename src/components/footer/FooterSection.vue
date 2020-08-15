@@ -15,7 +15,7 @@
                                         <div class="footer-logo">
                                             <figure>
                                                 <a href="index-2.html">
-                                                    <img src="/logo/256-light.png" alt="">
+                                                    <img src="/logo/Gold128px.png" alt="">
                                                 </a>
                                             </figure>
                                         </div>

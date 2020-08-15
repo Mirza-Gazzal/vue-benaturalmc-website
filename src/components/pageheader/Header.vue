@@ -5,9 +5,9 @@
             <div class="auto-container">
                 <div class="main-box clearfix">
                     <div class="logo-box">
-                        <div class="logo" style="position: relative;left: 1px; top:-92px; width: 256px; height: 128px">
+                        <div class="logo">
                             <a href="#">
-                                <img src="/logo/256.png" alt="" title="">
+                                <img src="/logo/Blue128px.png" alt="" title="">
                             </a>
                         </div>
                     </div>
@@ -43,8 +43,8 @@
             <div class="sticky-header">
                 <div class="auto-container clearfix">
                     <!--Logo-->
-                    <div class="logo pull-left" style="position: absolute;left: 16px; top:-42px; width: 128px;">
-                        <a href="index-2.html" title=""><img src="/logo/128.png" alt="" title=""></a>
+                    <div class="logo pull-left">
+                        <a href="#" title=""><img src="/logo/Blue92px.png" alt="" title=""></a>
                     </div>
                     <!--Right Col-->
                     <div class="pull-right">

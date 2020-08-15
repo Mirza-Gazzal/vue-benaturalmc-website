@@ -1,6 +1,5 @@
 <template>
     <div>
-
         <!--Clients Section-->
         <section class="clients-section style-two">
             <div class="auto-container">
