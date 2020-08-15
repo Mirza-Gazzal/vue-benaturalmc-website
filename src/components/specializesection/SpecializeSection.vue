@@ -26,14 +26,18 @@
                         <div class="inner-column">
                             <div class="carousel-outer" >
                                 <ul class="image-carousel owl-carousel owl-theme">
-
-                                    <li v-for="(picture,key) in SpecialGallery"><a :href="picture.imageURL" class="lightbox-image" title="Image Caption Here"><img :src="picture.imageURL" alt=""></a></li>
-
+                                    <li v-for="(picture,key) in SpecialGallery">
+                                        <a :href="picture.imageURL" class="lightbox-image" title="Image Caption Here">
+                                            <img v-lazy="picture.imageURL" alt="">
+                                        </a>
+                                    </li>
                                 </ul>
 
                                 <ul class="thumbs-carousel owl-carousel owl-theme" >
                                     <li class="thumb-box" v-for="(picture,key) in ThumbGallery">
-                                        <figure><img :src="picture.imageURL" alt=""></figure>
+                                        <figure>
+                                            <img v-lazy="picture.imageURL" />
+                                        </figure>
                                         <div class="overlay"><span class="icon fa fa-arrows-alt"></span></div>
                                     </li>
                                 </ul>

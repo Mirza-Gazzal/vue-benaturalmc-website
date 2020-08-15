@@ -4,7 +4,13 @@
             <div class="sponsors-outer">
                 <!--Sponsors Carousel-->
                 <ul class="sponsors-carousel owl-carousel owl-theme" >
-                    <li class="slide-item" v-for="(brand,key) in brands"><figure class="image-box"><a href="#"><img :src="brand.imageURL" alt=""></a></figure></li>
+                    <li class="slide-item" v-for="(brand,key) in brands">
+                        <figure class="image-box">
+                            <a href="#">
+                                <img v-lazy="brand.imageURL" :alt="brand.description" >
+                            </a>
+                        </figure>
+                    </li>
                 </ul>
             </div>
         </div>

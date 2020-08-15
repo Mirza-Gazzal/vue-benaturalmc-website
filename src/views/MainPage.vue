@@ -8,7 +8,7 @@
             <!-- DONE -->   <specialize-section :SpecialGallery="gallerySpecialPicture" :ThumbGallery="galleryThumbPicture"></specialize-section>
             <!-- DONE  -->  <services-section :services="services"></services-section>
             <!-- DONE -->   <transmational-section title="Example" subTitle="Example" :Clients="testmational"></transmational-section>
-            <!-- DONE -->   <client-section :brands="Brands"></client-section>
+            <!-- DONE -->   <brands-section :brands="Brands"></brands-section>
             <!-- DONE -->   <video-section :videoInfo="videoInfo"></video-section>
             <!-- DONE -->   <faq-section :clientQuestions="clientQuestion"></faq-section>
             <!-- DONE -->   <app-section :mobileInfo="mobileInfo"></app-section>
@@ -27,7 +27,7 @@
     import SpecializeSection from "@/components/specializesection/SpecializeSection.vue"
     import servicesSection from "@/components/services-section/main.vue"
     import TransmationalSection from "@/components/transmationalsection/TransmationalSection.vue"
-    import ClientSection from "@/components/clientsection/ClientSection.vue"
+    import brandsSection from "@/components/brands-section/main.vue"
     import VideoSection from "@/components/videosection/VideoSection.vue"
     import FaqSection from "@/components/faqsection/FaqSection.vue"
     import AppSection from "@/components/appsection/AppSection.vue"
@@ -51,10 +51,6 @@
     import mobileInfo from './../data/mobileInfo.json'
     import contactInfo from './../data/contactInfo.json'
     import footerSocialLinks from './../data/footerSocialLinks.json'
-
-
-
-
 
     export default {
         data() {
@@ -80,7 +76,7 @@
             SpecializeSection: SpecializeSection,
             servicesSection: servicesSection,
             TransmationalSection: TransmationalSection,
-            ClientSection: ClientSection,
+            brandsSection: brandsSection,
             VideoSection: VideoSection,
             FaqSection: FaqSection,
             AppSection: AppSection,

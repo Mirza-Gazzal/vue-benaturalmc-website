@@ -22,20 +22,20 @@
         </div>
 
 
-            <div class="bottom-box">
-                <div class="auto-container">
-                    <div class="outer-box clearfix">
-                        <ul class="social-links clearfix">
-                            <li v-for="media in socialMedia">
-                                <a :href="media.link">
-                                    <span :class="media.class"></span>
-                                    {{media.title}}
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+        <div class="bottom-box">
+            <div class="auto-container">
+                <div class="outer-box clearfix">
+                    <ul class="social-links clearfix">
+                        <li v-for="media in socialMedia">
+                            <a :href="media.link">
+                                <span :class="media.class"></span>
+                                {{media.title}}
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
     </section>
 </template>
 <script>

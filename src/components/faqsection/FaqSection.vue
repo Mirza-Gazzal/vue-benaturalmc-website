@@ -6,7 +6,9 @@
                     <div class="image-column col-lg-6 col-md-12 col-sm-12">
                         <div class="inner-column">
                             <div class="image-box">
-                                <figure class="image"><img :src="imageBackground" alt=""></figure>
+                                <figure class="image">
+                                    <img v-lazy="imageBackground" alt="Beauty">
+                                </figure>
                             </div>
                         </div>
                     </div>
