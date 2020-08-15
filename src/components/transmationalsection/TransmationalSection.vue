@@ -12,7 +12,9 @@
                     <div class="inner-box">
                         <div class="text">{{Client.text}}</div>
                         <div class="info-box">
-                            <div class="thumb"><img :src="Client.imageURL"></div>
+                            <div class="thumb">
+                                <img v-lazy="Client.imageURL">
+                            </div>
                             <h5 class="name">{{Client.name}}</h5>
                             <span class="date">{{Client.data}}</span>
                         </div>

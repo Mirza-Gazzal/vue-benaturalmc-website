@@ -19,7 +19,8 @@
                         <div class="video-column col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-column">
                                 <div class="video-box">
-                                    <figure class="image"><img :src="info.videoBackground" alt="">
+                                    <figure class="image">
+                                        <img v-lazy="info.videoBackground" alt="Video talks about BeNaturalMc">
                                         <a :href="info.link" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-play"></span></a>
                                     </figure>
                                 </div>
