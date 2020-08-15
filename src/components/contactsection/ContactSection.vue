@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <!-- Contact Section -->
-        <section class="contact-section">
+    <section id="contact-us-section" class="contact-section">
             <div class="inner-container">
                 <div class="sec-title">
                     <span class="float-text">{{title}}</span>
@@ -12,7 +10,7 @@
                     <!-- Info Column -->
                     <div class="info-column col-lg-4 col-md-12 col-sm-12">
                         <div class="inner-column" v v-for="(info,key) in contactInfo">
-                            <h4>{{info.Title}}</h4>
+                            <h4 style="text-transform: uppercase">{{info.Title}}</h4>
                             <ul class="contact-info">
                                 <li>{{info.Address1}}<br> {{info.Address2}}</li>
                                 <li>{{info.Phone1}} <br>{{info.Phone2}}</li>
@@ -59,8 +57,6 @@
                 </div>
             </div>
         </section>
-        <!--End Contact Section -->
-    </div>
 </template>
 <script>
     export default {
@@ -68,11 +64,11 @@
         props : {
             title: {
                 required: false,
-                default: "Contact Us"
+                default: "Get In Touch"
             },
             subTitle: {
                 required: false,
-                default: "Example"
+                default: "Contact Us"
             },
             contactInfo: {
                 required: true,

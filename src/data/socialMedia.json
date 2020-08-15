@@ -1,7 +1,12 @@
 [
   {
+    "title": "Facebook",
+    "class": "fa fa-facebook",
+    "link": "https://www.facebook.com/benaturalmc"
+  },
+  {
     "title": "Instagram",
     "class": "fa fa-instagram",
-    "link": "https://instagram.com"
+    "link": "https://www.instagram.com/benaturalmc/"
   }
 ]

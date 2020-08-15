@@ -1,10 +1,30 @@
 [
   {
-    "href": "#services-section",
-    "text": "Google"
+    "href": "#our-center-section",
+    "text": "Our Center"
   },
   {
-    "href": "https://instagram.comn",
-    "text": "Instagram"
+    "href": "#services-section",
+    "text": "Treatments"
+  },
+  {
+    "href": "#clients-section",
+    "text": "Clients"
+  },
+  {
+    "href": "#brands-section",
+    "text": "Brands"
+  },
+  {
+    "href": "#about-section",
+    "text": "About"
+  },
+  {
+    "href": "#faq-section",
+    "text": "FAQ"
+  },
+  {
+    "href": "#contact-us-section",
+    "text": "Contact Us"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "imageURL": "/images/resource/special-4.jpg"
+    "imageURL": "/images/resource/special-1.jpg"
   },
   {
     "imageURL": "/images/resource/special-2.jpg"
@@ -9,18 +9,6 @@
     "imageURL": "/images/resource/special-3.jpg"
   },
   {
-    "imageURL": "/images/resource/special-1.jpg"
-  },
-  {
     "imageURL": "/images/resource/special-4.jpg"
-  },
-  {
-    "imageURL": "/images/resource/special-2.jpg"
-  },
-  {
-    "imageURL": "/images/resource/special-3.jpg"
-  },
-  {
-    "imageURL": "/images/resource/special-1.jpg"
   }
 ]

@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <!-- FAQ Section -->
-        <section class="faq-section">
+    <section id="faq-section" class="faq-section">
             <div class="auto-container">
                 <div class="row">
                     <!-- Image Column -->
@@ -36,8 +34,6 @@
                 </div>
             </div>
         </section>
-        <!--End FAQ Section -->
-    </div>
 </template>
 <script>
     export default {

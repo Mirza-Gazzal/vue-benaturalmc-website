@@ -1,11 +1,10 @@
 [
   {
-    "Title" : "Contact us",
-    "Address1" : "Beirut Hammra company, 882",
-    "Address2" : "street hammra, PA 15786",
-    "Phone1" : "+961 - 0000000",
-    "Phone2" : "+961 - 0000000",
-    "Email" : "Example@example.com"
-    
+    "Title" : "visit us at",
+    "Address1" : "Saint Therese, Facing Orca Shopping Center",
+    "Address2" : "Celine Bldg, 1st floor (17.75 km)\n  Beirut, Lebanon",
+    "Phone1" : "+961 71 497 499",
+    "Phone2" : "+961 71 497 499",
+    "Email" : "info@benaturalmc.com"
   }
 ]

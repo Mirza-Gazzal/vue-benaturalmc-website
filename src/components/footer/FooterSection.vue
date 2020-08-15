@@ -10,7 +10,7 @@
                         <div class="big-column col-xl-8 col-lg-8 col-md-8 col-sm-12">
                             <div class="row">
                                 <!--Footer Column-->
-                                <div class="footer-column col-sm-12">
+                                <div class="footer-column col-sm-3">
                                     <div class="footer-widget about-widget">
                                         <div class="footer-logo">
                                             <figure>
@@ -19,9 +19,11 @@
                                                 </a>
                                             </figure>
                                         </div>
-                                        <div class="">
-                                            <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</div>
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer-column col-sm-8 p-0 mt-3">
+                                    <div class="text text-white">
+                                        {{appData.brief}}
                                     </div>
                                 </div>
                             </div>
@@ -35,8 +37,9 @@
                                         <h2 class="widget-title">Useful links</h2>
                                         <div class="widget-content">
                                             <ul class="list">
-                                                <li ><a href="about.html">aaa</a></li>
-
+                                                <li v-for="link in footerLinks">
+                                                    <a :href="link.link">{{link.title}}</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -61,7 +64,7 @@
                         </div>
 
                         <div class="copyright-text">
-                            <a href="https://www.facebook.com" target="_blank">FaceBook</a>
+                            <a href="#" target="_blank">CopyRight (C) 2020 BeNaturalMc</a>
                         </div>
                     </div>
                 </div>
@@ -71,8 +74,15 @@
     </div>
 </template>
 <script>
+    import appData from '@/data/app.json'
+    import footerLinks from '@/data/footerLinks.json'
     export default{
-
+        data () {
+            return {
+                appData: appData,
+                footerLinks: footerLinks
+            }
+        },
         props: {
             socialMedia: {
                 required: true

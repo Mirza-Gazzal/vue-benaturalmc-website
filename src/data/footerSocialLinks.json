@@ -2,22 +2,10 @@
   {
 
     "class": "fa fa-facebook",
-    "link": ""
-  },
-  {
-    "class": "fa fa-twitter",
-    "link": "#"
-  },
-  {
-    "class": "fa fa-google-plus",
-    "link": "#"
+    "link": "https://www.facebook.com/benaturalmc"
   },
   {
     "class": "fa fa-instagram",
-    "link": "#"
-  },
-  {
-    "class": "fa fa-whatsapp",
-    "link": "#"
+    "link": "https://www.instagram.com/benaturalmc/"
   }
 ]

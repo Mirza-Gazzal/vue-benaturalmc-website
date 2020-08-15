@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <!-- Video Section -->
+    <div id="about-section">
         <section class="video-section" v-for="(info,key) in videoInfo">
             <div class="outer-box" :style="'background-image: url('+info.imageBackground+')'">
                 <div class="auto-container">
@@ -30,7 +29,6 @@
                 </div>
             </div>
         </section>
-        <!--End Video Section -->
     </div>
 </template>
 <script>
