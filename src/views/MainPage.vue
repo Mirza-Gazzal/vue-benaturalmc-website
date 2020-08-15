@@ -7,7 +7,7 @@
             <!-- DONE  -->  <slider :slides="slides" :socialMedia="socialMedia"></slider>
             <!-- DONE -->   <specialize-section :SpecialGallery="gallerySpecialPicture" :ThumbGallery="galleryThumbPicture"></specialize-section>
             <!-- DONE  -->  <services-section :services="services"></services-section>
-            <!-- DONE -->   <transmational-section title="Example" subTitle="Example" :Clients="testmational"></transmational-section>
+            <!-- DONE -->   <testimonials-section title="Example" subTitle="Example" :testimonials="testmational"></testimonials-section>
             <!-- DONE -->   <brands-section :brands="Brands"></brands-section>
             <!-- DONE -->   <video-section :videoInfo="videoInfo"></video-section>
             <!-- DONE -->   <faq-section :clientQuestions="clientQuestion"></faq-section>
@@ -26,14 +26,14 @@
     import Slider from "@/components/slider/Slider.vue"
     import SpecializeSection from "@/components/specializesection/SpecializeSection.vue"
     import servicesSection from "@/components/services-section/main.vue"
-    import TransmationalSection from "@/components/transmationalsection/TransmationalSection.vue"
+    import testimonialsSection from "@/components/testimonials-section/main.vue"
     import brandsSection from "@/components/brands-section/main.vue"
     import VideoSection from "@/components/videosection/VideoSection.vue"
     import FaqSection from "@/components/faqsection/FaqSection.vue"
     import AppSection from "@/components/appsection/AppSection.vue"
     import NewsSection from "@/components/newssection/NewsSection.vue"
     import ContactSection from "@/components/contactsection/ContactSection.vue"
-    import FooterSection from "@/components/footer/FooterSection.vue"
+    import footerSection from "@/components/footer-section/main.vue"
     import ScrollUpArrow from "@/components/scrolluparrow/ScrollUpArrow.vue"
     import loadScript from "./../util/util.js";
 
@@ -75,14 +75,14 @@
             Slider: Slider,
             SpecializeSection: SpecializeSection,
             servicesSection: servicesSection,
-            TransmationalSection: TransmationalSection,
+            testimonialsSection: testimonialsSection,
             brandsSection: brandsSection,
             VideoSection: VideoSection,
             FaqSection: FaqSection,
             AppSection: AppSection,
             NewsSection: NewsSection,
             ContactSection: ContactSection,
-            FooterSection: FooterSection,
+            footerSection: footerSection,
             ScrollUpArrow: ScrollUpArrow
         },
         mounted() {

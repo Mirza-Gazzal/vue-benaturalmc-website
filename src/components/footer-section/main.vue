@@ -57,9 +57,9 @@
                     <div class="inner-container clearfix">
                         <div class="social-links">
                             <ul class="social-icon-two">
-                                <li v-for="(icons,key) in socialMedia"><a :href="icons.link"><i :class=icons.class></i></a></li>
-
-
+                                <li v-for="(icons,key) in socialMedia">
+                                    <a :href="icons.link" target="_blank"><i :class=icons.class></i></a>
+                                </li>
                             </ul>
                         </div>
 
