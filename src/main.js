@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import MainPage from '@/views//MainPage.vue'
-import './registerServiceWorker'
+// import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import VueLazyload from 'vue-lazyload'
