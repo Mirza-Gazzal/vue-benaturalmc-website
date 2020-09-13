@@ -9,7 +9,7 @@
             <div class="testimonial-carousel-two owl-carousel owl-theme">
                 <div class="testimonial-block-two" v-for="(testimonial , key) in testimonials">
                     <div class="inner-box">
-                        <div class="text">{{testimonial.text}}</div>
+                        <div class="text" style="min-height: 150px">{{testimonial.text}}</div>
                         <div class="info-box">
                             <div class="thumb">
                                 <img :src="testimonial.imageURL" loading="lazy">

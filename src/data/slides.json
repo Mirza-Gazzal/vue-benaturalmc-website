@@ -1,26 +1,26 @@
 [
   {
-    "title": "Service One Title",
-    "subTitle": "Service One Text",
-    "text": "text here",
-    "link": "https://google.com",
-    "linkText": "Check Google",
+    "title": "Rejuvenate your skin the right way",
+    "subTitle": "Mesotherapy",
+    "text": "",
+    "link": "",
+    "linkText": "",
     "imageUrl": "/images/main-slider/image-1.jpg"
   },
   {
-    "title": "Service Two Title",
-    "subTitle": "Service Two Text",
-    "text": "text here",
-    "link": "https://google.com",
-    "linkText": "Check Google",
+    "title": "Experience the max in facial",
+    "subTitle": "Facial Peeling Treatment",
+    "text": "",
+    "link": "",
+    "linkText": "",
     "imageUrl": "/images/main-slider/image-2.jpg"
   },
   {
-    "title": "Service Three Title",
-    "subTitle": "Service Three Text",
-    "text": "text here",
-    "link": "https://google.com",
-    "linkText": "Check Google",
+    "title": "Revealing the younger looking skin beneath",
+    "subTitle": "Grow Young",
+    "text": "",
+    "link": "",
+    "linkText": "",
     "imageUrl": "/images/main-slider/image-3.jpg"
   }
 ]

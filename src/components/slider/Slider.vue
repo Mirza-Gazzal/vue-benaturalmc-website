@@ -11,9 +11,9 @@
                             <h2>{{slide.subTitle}}</h2>
                             <div class="text">{{slide.text}}</div>
                             <div class="link-box">
-                                <a :href="slide.link" target="_blank" v-if="slide.hasOwnProperty('link')">
+                                <!--<a :href="slide.link" target="_blank" v-if="slide.hasOwnProperty('link')">
                                     {{ slide.linkText || 'Read More'}}
-                                </a>
+                                </a>-->
                             </div>
                         </div>
                     </div>

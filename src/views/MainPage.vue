@@ -7,10 +7,10 @@
             <!-- DONE  -->  <slider :slides="slides" :socialMedia="socialMedia"></slider>
             <!-- DONE -->   <specialize-section :SpecialGallery="gallerySpecialPicture" :ThumbGallery="galleryThumbPicture"></specialize-section>
             <!-- DONE  -->  <services-section :services="services"></services-section>
-            <!-- DONE -->   <testimonials-section title="Example" subTitle="Example" :testimonials="testmational"></testimonials-section>
+            <!-- DONE -->   <testimonials-section title="Testimonials" subTitle="" :testimonials="testimonial"></testimonials-section>
             <!-- DONE -->   <brands-section :brands="Brands"></brands-section>
             <!-- DONE -->   <video-section :videoInfo="videoInfo"></video-section>
-            <!-- DONE -->   <faq-section :clientQuestions="clientQuestion"></faq-section>
+            <!-- DONE -->   <!--<faq-section :clientQuestions="clientQuestion"></faq-section>-->
             <!-- DONE -->   <app-section :mobileInfo="mobileInfo"></app-section>
             <!--  <news-section></news-section>-->
             <contact-section :contactInfo="contactInfo"></contact-section>
@@ -42,7 +42,7 @@
     import headerLinks from './../data/headerLinks.json'
     import slides from './../data/slides.json'
     import socialMedia from './../data/socialMedia.json'
-    import testmational from './../data/testmational.json'
+    import testimonial from './../data/testimonial.json'
     import gallerySpecialPicture from './../data/gallerySpecialPicture.json'
     import galleryThumbPicture from './../data/galleryThumbPicture.json'
     import videoInfo from './../data/videoInfo.json'
@@ -59,7 +59,7 @@
                 headerLinks: headerLinks,
                 slides: slides,
                 socialMedia: socialMedia,
-                testmational: testmational,
+                testimonial: testimonial,
                 gallerySpecialPicture: gallerySpecialPicture,
                 galleryThumbPicture: galleryThumbPicture,
                 videoInfo: videoInfo,
